@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b58b3017-2c6b-4dd4-a707-ab5ac3d10772" name="Changes" comment="">
+    <list default="true" id="b58b3017-2c6b-4dd4-a707-ab5ac3d10772" name="Changes" comment="Java script HomeWork 1">
+      <change afterPath="$PROJECT_DIR$/Lesson 2/JS_HomeWork 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson 2/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson 1/JS_HomeWork1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 1/JS_HomeWork1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson 1/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 1/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,14 +30,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Lesson 1" />
@@ -52,8 +52,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658575221407</updated>
-      <workItem from="1658575225476" duration="4247000" />
+      <workItem from="1658575225476" duration="4604000" />
+      <workItem from="1658902342711" duration="45000" />
+      <workItem from="1658902391698" duration="145000" />
+      <workItem from="1658902558063" duration="4205000" />
     </task>
+    <task id="LOCAL-00001" summary="Java script HomeWork 1">
+      <created>1658580672632</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658580672632</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -69,5 +80,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Java script HomeWork 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java script HomeWork 1" />
   </component>
 </project>
