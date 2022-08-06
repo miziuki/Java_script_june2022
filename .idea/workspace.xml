@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b58b3017-2c6b-4dd4-a707-ab5ac3d10772" name="Changes" comment="Java script HomeWork 3">
-      <change afterPath="$PROJECT_DIR$/Lesson_4/JS_HW4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_4/main.js" afterDir="false" />
+    <list default="true" id="b58b3017-2c6b-4dd4-a707-ab5ac3d10772" name="Changes" comment="Java script HomeWork 4">
+      <change afterPath="$PROJECT_DIR$/Lesson_5/hw_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson_5/main_5.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson 2/JS_HomeWork 2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 2/JS_HomeWork 2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_4/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_4/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -60,7 +61,9 @@
       <workItem from="1658902558063" duration="4540000" />
       <workItem from="1659201709704" duration="4714000" />
       <workItem from="1659210996051" duration="430000" />
-      <workItem from="1659508027096" duration="9375000" />
+      <workItem from="1659508027096" duration="9625000" />
+      <workItem from="1659553371087" duration="1518000" />
+      <workItem from="1659785143904" duration="11110000" />
     </task>
     <task id="LOCAL-00001" summary="Java script HomeWork 1">
       <created>1658580672632</created>
@@ -83,7 +86,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659206806862</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Java script HomeWork 3">
+      <created>1659518265263</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659518265263</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Java script HomeWork 4">
+      <created>1659518339148</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659518339148</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +121,8 @@
     <MESSAGE value="Java script HomeWork 1" />
     <MESSAGE value="Java script HomeWork 2" />
     <MESSAGE value="Java script HomeWork 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java script HomeWork 3" />
+    <MESSAGE value="Java script HomeWork 4 &#10;//ta za shoooooooo" />
+    <MESSAGE value="Java script HomeWork 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java script HomeWork 4" />
   </component>
 </project>

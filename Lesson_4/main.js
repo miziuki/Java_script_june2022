@@ -76,11 +76,12 @@ let users = [
 //
 // -----------------------------------------------
 
-// let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
-//
-//   for (let item of listOfItems) {
-//       document.write('<ul><li> ${item} </li></ul>')
-//   }
+let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
+document.write(`<ul>`)
+  for (let item of listOfItems){
+      document.write(`<li> ${item} </li>`)
+  }
+document.write(`</ul>`)
 
 // Використовуючи данні з масиву, за допомоги document.write та циклу
 // побудувати структуру по шаблону  Зробити адекватну стилізацію
@@ -143,8 +144,15 @@ let users2 = [
     {name: 'max', age: 31, status: true}
 ];
 
-for (let user of users2 ) {
-    if (user.age > 30) {
-        console.log(user);
+// for (let user of users2 ) {
+//     if (user.age > 30) {
+//         console.log(user);
+//     }
+// }
+
+for (let user of users2){
+    for (let key in user) {
+        document.write(`<div> ${user[key]} </div>`)
+
     }
 }
