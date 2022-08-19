@@ -137,11 +137,15 @@ let cards = [
     {cardSuit: null, value: 'jocker', color: 'red'},
     {cardSuit: null, value: 'jocker', color: 'black'}
 ]
-// // - знайти піковий туз
+// // // - знайти піковий туз
 // let st1 = cards.filter(value => value.cardSuit === 'spade');
 // let spade_ace = st1.find(value => value.value === 'ace');
 // console.log(spade_ace);
 //
+// // через find
+// let find = cards.find(value => value.cardSuit === 'spade' && value.value === 'ace');
+// console.log(find);
+
 //
 // // - всі шістки
 // let all6 = cards.filter(value => value.value === '6');
@@ -170,19 +174,19 @@ let cards = [
 //     clubs:[]
 // }
 
-let sorted = cards.reduce((accumulator, card) => {
-    if (card.cardSuit === 'spade') {
-        accumulator.spades.push(card);
-    }
-    if (card.cardSuit === 'clubs') {
-        accumulator.clubs.push(card);
-    }
-    if (card.cardSuit === 'diamond') {
-        accumulator.diamonds.push(card);
-    }
-    if (card.cardSuit === 'heart') {
-        accumulator.hearts.push(card);}
-    return accumulator;
-}, {spades: [], diamonds: [], hearts: [], clubs: []});
-console.log(sorted);
+// let sorted = cards.reduce((accumulator, card) => {
+//     if (card.cardSuit === 'spade') {
+//         accumulator.spades.push(card);
+//     }
+//     if (card.cardSuit === 'clubs') {
+//         accumulator.clubs.push(card);
+//     }
+//     if (card.cardSuit === 'diamond') {
+//         accumulator.diamonds.push(card);
+//     }
+//     if (card.cardSuit === 'heart') {
+//         accumulator.hearts.push(card);}
+//     return accumulator;
+// }, {spades: [], diamonds: [], hearts: [], clubs: []});
+// console.log(sorted);
 
