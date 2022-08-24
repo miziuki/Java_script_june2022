@@ -37,12 +37,6 @@
 <div class="wrap"> </div>
 <div class="wrap2"></div>
 <ul class="menu"></ul>
-
-<form name = 'form1'>
-<input name = 'inputname' type = 'text' placeholder="input your age">
-    <button>Submit</button>
-</form>
-
 <script>
 
     // // - є масив
@@ -319,22 +313,65 @@
     //   item.style.display = 'none' ;
     // }
 
-    // - створити інпут який приймає вік людини та кнопку яка підтверджує дію.При натисканні на кнопку зчитати
-    // інформацію з інпуту та перевірити вік чи меньше він ніж 18, та повідомити про це користувача
-    let input = document.createElement("input");
-    input.type = 'number';
+    // // - створити інпут який приймає вік людини та кнопку яка підтверджує дію.При натисканні на кнопку зчитати
+    // // інформацію з інпуту та перевірити вік чи меньше він ніж 18, та повідомити про це користувача
+    // let input = document.createElement("input");
+    // input.type = 'number';
+    //
+    // let button = document.createElement("button");
+    // button.innerText = 'Submit your age';
+    //
+    // document.body.append(input, button);
+    //
+    // button.onclick = function () {
+    //     let value = input.value;
+    //     if (value > 0 && value < 18) {alert('Go buy icecream')}
+    //     else if (value >=18 ) {alert('Welcome')}
+    //     else {alert('WTF')}
+    //     }
 
-    let button = document.createElement("button");
-    button.innerText = 'Submit your age';
+    // *** Створити 3 инпута та кнопку. Один визначає кількість рядків, другий - кількість ячеєк, третій вмиіст ячеєк.
+    //     При натисканні кнопки, вся ця інформація зчитується і формується табличка, з відповідним вмістом.
+    // (Додатковачастина для завдання)
 
-    document.body.append(input, button);
+    let input1 = document.createElement('input');
+    let input2 = document.createElement('input');
+    let input3 = document.createElement('input');
 
-    button.onclick = function () {
-        let value = input.value;
-        if (value > 0 && value < 18) {alert('Go buy icecream')}
-        else if (value >=18 ) {alert('Welcome')}
-        else {alert('WTF')}
+    let button = document.createElement('button');
+    button.innerText = 'Click the button';
+
+    document.body.append(input1, input2, input3, button);
+
+    button.addEventListener("click", function () {
+
+        row = input1.value;
+        column = input2.value;
+        content = input3.value;
+
+        let generator = function (row, column, content) {
+
+            let table = document.createElement('table');
+            document.body.append(table)
+
+            for (let i=0; i<row; i++) {
+                let tr = document.createElement('tr');
+                table.append(tr);
+
+                for (let c=0; c<column; c++) {
+                    let td = document.createElement('td');
+                    td.innerText = content;
+                    tr.append(td);
+
+
+                }
+
+            }
+
         }
+        generator(row, column, content);
+        button.disabled = true;
+    })
 
 </script>
 

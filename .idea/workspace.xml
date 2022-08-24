@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b58b3017-2c6b-4dd4-a707-ab5ac3d10772" name="Changes" comment="Java script HomeWork 8">
-      <change afterPath="$PROJECT_DIR$/Lesson_9/hm9.html" afterDir="false" />
+    <list default="true" id="b58b3017-2c6b-4dd4-a707-ab5ac3d10772" name="Changes" comment="Java script HomeWork 9">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_9/hm9.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_9/hm9.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +68,8 @@
       <workItem from="1660892291574" duration="2739000" />
       <workItem from="1660988298178" duration="13127000" />
       <workItem from="1661150132464" duration="4778000" />
-      <workItem from="1661237016496" duration="9313000" />
+      <workItem from="1661237016496" duration="9379000" />
+      <workItem from="1661288689267" duration="1251000" />
     </task>
     <task id="LOCAL-00001" summary="Java script HomeWork 1">
       <created>1658580672632</created>
@@ -133,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661081061488</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Java script HomeWork 9">
+      <created>1661249080969</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1661249080969</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +168,7 @@
     <MESSAGE value="Java script HomeWork 6" />
     <MESSAGE value="Java script HomeWork 6 [edited]" />
     <MESSAGE value="Java script HomeWork 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java script HomeWork 8" />
+    <MESSAGE value="Java script HomeWork 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java script HomeWork 9" />
   </component>
 </project>
