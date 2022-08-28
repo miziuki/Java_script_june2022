@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b58b3017-2c6b-4dd4-a707-ab5ac3d10772" name="Changes" comment="Java script HomeWork 9">
+    <list default="true" id="b58b3017-2c6b-4dd4-a707-ab5ac3d10772" name="Changes" comment="Java script HomeWork 9 with additional">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson_9/hm9.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_9/hm9.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,16 +30,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/irynamiziuk/IdeaProjects/Java_script_june2022/Final assignment/task2",
+    "settings.editor.selected.configurable": "copyright"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Final assignment/task2" />
+      <recent name="$PROJECT_DIR$/Final assignment/task1" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Lesson 1" />
       <recent name="$PROJECT_DIR$/.idea" />
@@ -69,7 +73,9 @@
       <workItem from="1660988298178" duration="13127000" />
       <workItem from="1661150132464" duration="4778000" />
       <workItem from="1661237016496" duration="9379000" />
-      <workItem from="1661288689267" duration="1251000" />
+      <workItem from="1661288689267" duration="1437000" />
+      <workItem from="1661497140756" duration="259000" />
+      <workItem from="1661604291845" duration="24586000" />
     </task>
     <task id="LOCAL-00001" summary="Java script HomeWork 1">
       <created>1658580672632</created>
@@ -141,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661249080969</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Java script HomeWork 9 with additional">
+      <created>1661328968329</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1661328968329</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +182,8 @@
     <MESSAGE value="Java script HomeWork 6 [edited]" />
     <MESSAGE value="Java script HomeWork 8" />
     <MESSAGE value="Java script HomeWork 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java script HomeWork 9" />
+    <MESSAGE value="Java script HomeWork 9 (with additional)" />
+    <MESSAGE value="Java script HomeWork 9 with additional" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java script HomeWork 9 with additional" />
   </component>
 </project>

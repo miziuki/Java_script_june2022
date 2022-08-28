@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Final project</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 100px;
+        }
+
+        .wrap {
+            margin-top: 3px;
+            border:2px solid dimgrey ;
+            height: 670px;
+            width: 500px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            column-gap: 8px;
+        }
+
+        .main{
+            height: 100px;
+            width: 225px;
+            border:2px solid dimgrey ;
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            color: #e5c349;
+            font-weight: bold;
+        }
+        .butt{
+            margin-top: 10px;
+            border-radius: 5px;
+            background: cornflowerblue;
+            color: antiquewhite;
+            width: 110px;
+        }
+        .butt:hover {
+            background: #2843d7;
+            transition: 200ms;
+            cursor: pointer;
+        }
+
+        h1{
+            color: #7ea0e5;
+        }
+
+
+    </style>
+</head>
+<body>
+<h1>
+Users
+</h1>
+<script>
+
+    let wrap = document.createElement('div');
+    wrap.classList.add('wrap');
+    document.body.append(wrap);
+
+fetch('https://jsonplaceholder.typicode.com/users')
+.then(response => response.json())
+.then(users => {
+for (let user of users) {
+let mainDiv = document.createElement('div');
+mainDiv.classList.add('main');
+mainDiv.innerText = `${user.id} - ${user.name}`
+wrap.append(mainDiv);
+
+let button = document.createElement('button');
+button.innerText = 'Details';
+button.classList.add('butt');
+button.onclick = function () {
+location.href =`user-details2.html?id=${user.id}`
+}
+mainDiv.append(button);
+}
+}
+);
+
+</script>
+</body>
+</html>

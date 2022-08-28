@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Post</title>
+
+    <style>
+
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 50px;
+
+        }
+
+        .header{
+            color: #7ea0e5;
+            font-weight: bold;
+            font-size: 30px;
+        }
+
+        .mainDiv{
+            margin-top: 10px;
+            border: 2px solid dimgray;
+            border-radius: 5px;
+            height: 200px;
+            width: 500px;
+            padding: 0px 0px 10px 10px;
+            /*box-sizing: border-box;*/
+            color: #e5c349;
+            font-weight: bold;
+        }
+
+        .button{
+            margin-top: 10px;
+            border: 2px solid dimgray;
+            border-radius: 10px;
+            background: #7ea0e5;
+            color: antiquewhite;
+            font-weight: bold;
+            font-size: 20px;
+            height: 40px;
+        }
+
+        .button:hover {
+            background: #2843d7;
+            transition: 200ms;
+            cursor: pointer;
+        }
+
+        .commentsDiv{
+            margin-top: 20px;
+            /*border: 2px solid dimgray;*/
+            width: 1400px;
+            display: flex;
+            flex-wrap: wrap;
+            box-sizing: border-box;
+            justify-content: center;
+            align-items: center;
+            row-gap: 15px;
+            column-gap: 15px;
+
+        }
+
+        .comField{
+            border: 2px solid dimgray;
+            border-radius: 8px;
+            width: 320px;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
+            background: #ffe9bb;
+
+        }
+
+        .text{
+            text-align: center;
+            color: #7ea0e5;
+            font-weight: bolder;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<div class="header">
+    Post details
+</div>
+
+<script>
+    let url = new URL(location.href);
+    let id = url.searchParams.get('id');
+
+    let mainDiv = document.createElement('div');
+    mainDiv.classList.add('mainDiv');
+    document.body.append(mainDiv);
+
+    fetch(`https://jsonplaceholder.typicode.com/posts/${id}`)
+        .then(value => value.json())
+        .then(value => {
+            for (let key in value) {
+                let field = document.createElement('p');
+                field.innerText = `${key} - ${value[key]}`
+                mainDiv.append(field);
+            }
+
+            let button = document.createElement('button');
+            button.innerText = 'See comments';
+            button.classList.add('button');
+            document.body.append(button);
+            button.onclick = function () {
+                fetch(`https://jsonplaceholder.typicode.com/posts/${id}/comments`)
+                    .then(commennts => commennts.json())
+                    .then(comments => {
+
+                        let commentsDiv = document.createElement('div');
+                        commentsDiv.classList.add('commentsDiv');
+                        document.body.append(commentsDiv);
+
+                        for (const comment of comments) {
+                        let element = document.createElement('div');
+                        element.classList.add('comField');
+                        for (let key in comment) {
+                            let text = document.createElement('p');
+                            text.innerText = `${key} - ${comment[key]}`;
+                            text.classList.add('text');
+                            element.append(text);
+                        }
+                            commentsDiv.append(element);
+                        }
+                    })
+            }
+        })
+
+
+
+</script>
+
+</body>
+</html>
